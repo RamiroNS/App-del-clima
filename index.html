@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="app-container">
+        <h1>App del Clima</h1>
+        <div class="app-container__resultado">
+            <p>Busca pais y ciudad</p>
+            <!-- <h5>Clima en Bogota</h5>
+            <img src="" alt="">
+            <h2>28°C</h2>
+            <p>Max 33°C</p>
+            <p>Min 22°C</p> -->
+        </div>
+        <form action="" method="post" class="app-container__get">
+            <select name="" id="country" class="app-container__get__input2">
+                <option disabled selected  value="">Pais</option>
+                <option value="AR">Argentina</option>
+                <option value="CO">Colombia</option>
+                <option value="MX">Mexico</option>
+                <option value="ES">España</option>
+                <option value="PE">Peru</option>
+                <option value="US">EEUU</option>
+            </select>
+            <input class="app-container__get__input1" type="text" name="city" id="city" placeholder="Ciudad">
+            <input type="submit" class="app-container__get__enviar">
+        </form>
+    </section>
+    <script src="./index.js" ></script>
+</body>
+</html>

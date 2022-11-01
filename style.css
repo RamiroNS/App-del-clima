@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    transition: .3s;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('https://fondosmil.com/fondo/11113.jpg');
+    background-repeat: no-repeat;
+    background-position: fixed;
+}
+
+.app-container{
+    margin: 60px auto;
+    color: aliceblue;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 350px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.app-container__resultado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-container__get{
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.app-container__get__input1{
+    width: 300px;
+    height: 30px;
+    margin: 10px auto;
+    background-color: rgba(255, 255, 255, .4);
+    color: rgb(0, 0, 0);
+    border: none;
+    font-size: 13px;
+}
+.app-container__get__input1::placeholder{
+    color: black;
+}
+
+.app-container__get__enviar{
+    background-color: rgba(0, 0, 0, .5);
+    color: aliceblue;
+    border: 1px solid white;
+    height: 30px;
+    width: 300px;
+    font-size: 18px;
+    transition: .3s;
+    border-radius: 4px;
+    margin: 20px auto;
+}
+.app-container__get__enviar:hover{
+    background-color: rgba(255, 255, 255, .4);
+    cursor: pointer;
+    color: black;
+}
+.app-container__get__input2{
+    margin: 8px auto;
+    height: 30px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, .4);
+ }
+
+h2{
+    font-size: 50px;
+    margin: 0;
+}
+
+img{
+    background-color:rgba(255, 255, 255, .4);
+    border-radius: 50%;
+}
+
